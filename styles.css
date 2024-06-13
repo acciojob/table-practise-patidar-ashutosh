@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+table{
+	order-collapse: collapse;
+	width: 100%;
+	background-color:yellow;
+}
+table, th, tr, td {
+            border: 1px solid black;
+        }
+ th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        caption {
+            caption-side: top;
+            font-weight: bold;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
